@@ -1,0 +1,39 @@
+h1{
+    color:black;
+    background-color: yellow;
+}
+body{
+    background-color: pink;
+}
+button{
+    color:white;
+    background-color: blue;
+}
+#Box{
+    height: 250px;
+    width: 100px;
+    background-color: aquamarine;
+    color: white;
+    border: 1px solid black;
+}
+.newClass{
+    color: rgb(248, 4, 4);
+    height: 100px;
+    font-size: 20px;
+}
+#e00{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid black;
+}
+
+.light{
+background-color: rgb(241, 230, 208);
+color: rgb(0, 0, 0);
+}
+.dark{
+background-color:rgb(52, 48, 48);
+color: white;
+}

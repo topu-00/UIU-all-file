@@ -1,0 +1,9 @@
+Password:max
+Name: Max
+University: UIU
+Id: 0112330455
+Country: BD
+Gender: Male
+Date of birth: 04/08/2000
+Phone: max@gmail.com
+Username:max

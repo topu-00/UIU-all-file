@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.connected.MessengerControll">
+   <children>
+      <HBox layoutX="833.0" layoutY="174.0" prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox prefHeight="800.0" prefWidth="400.0" style="-fx-background-color: #d8cfff;">
+               <children>
+                  <AnchorPane prefHeight="80.0" style="-fx-background-color: #d8cfff;">
+                     <children>
+                        <Label layoutX="111.0" prefHeight="80.0" prefWidth="256.0" text="ConnectEd">
+                           <font>
+                              <Font name="American Typewriter Bold" size="36.0" />
+                           </font>
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <Button fx:id="Back" layoutX="7.0" mnemonicParsing="false" onAction="#BacK_F" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: Transparent;" text="←">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="720.0" style="-fx-background-color: #d8cfff;">
+                     <children>
+                        <ScrollPane layoutX="14.0" layoutY="79.0" style="-fx-background-color: #d8cfff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <content>
+                              <VBox fx:id="vBox_L" prefHeight="718.0" prefWidth="364.0" style="-fx-background-color: #d8cfff;">
+                                 <padding>
+                                    <Insets left="20.0" right="20.0" />
+                                 </padding>
+                              </VBox>
+                           </content></ScrollPane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+            <VBox prefHeight="800.0" prefWidth="700.0" style="-fx-background-color: #d8cfff;">
+               <children>
+                  <AnchorPane prefHeight="230.0" style="-fx-background-color: #d8cfff;">
+                     <children>
+                        <Label fx:id="selectedUserLabel" layoutX="78.0" layoutY="16.0" prefHeight="50.0" prefWidth="229.0" textFill="#0978db" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="78.0" AnchorPane.rightAnchor="365.0" AnchorPane.topAnchor="16.0">
+                           <font>
+                              <Font name="Arial Bold" size="18.0" />
+                           </font></Label>
+                        <ImageView fx:id="imageView" fitHeight="50.0" fitWidth="50.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="17.5" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="608.0" AnchorPane.topAnchor="14.0" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="720.0" style="-fx-background-color: #d8cfff;">
+                     <children>
+                        <ScrollPane layoutX="121.0" layoutY="175.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <content>
+                              <VBox fx:id="vBox_M" prefHeight="10000.0" prefWidth="650.0" style="-fx-background-color: #d8cfff;">
+                                 <padding>
+                                    <Insets left="20.0" right="20.0" top="20.0" />
+                                 </padding>
+                              </VBox>
+                           </content></ScrollPane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="220.0" prefWidth="667.0" style="-fx-background-color: #d8cfff;">
+                     <children>
+                        <Button fx:id="SendButton" layoutX="577.0" layoutY="24.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="59.0" prefWidth="68.0" style="-fx-background-color: TRANSPARENT;" textFill="WHITE" AnchorPane.bottomAnchor="64.0" AnchorPane.leftAnchor="577.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="24.0">
+                           <graphic>
+                              <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../12439274-removebg-preview.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <TextArea fx:id="MessengeTet" layoutX="14.0" layoutY="24.0" prefHeight="59.0" prefWidth="553.0" promptText="Text" AnchorPane.bottomAnchor="64.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="105.0" AnchorPane.topAnchor="24.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+            <VBox prefWidth="400.0" style="-fx-background-color: #d8cfff;">
+               <children>
+                  <AnchorPane prefHeight="80.0" style="-fx-background-color: #d8cfff;" />
+                  <AnchorPane prefHeight="720.0" prefWidth="200.0" style="-fx-background-color: White;">
+                     <children>
+                        <ScrollPane layoutX="14.0" layoutY="95.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <content>
+                              <VBox fx:id="vBox_R" prefHeight="718.0" prefWidth="358.0" style="-fx-background-color: #d8cfff;">
+                                 <padding>
+                                    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                                 </padding>
+                              </VBox>
+                           </content>
+                        </ScrollPane>
+                     </children></AnchorPane>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

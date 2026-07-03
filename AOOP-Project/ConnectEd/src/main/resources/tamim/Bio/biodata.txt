@@ -1,0 +1,9 @@
+Password:tamim
+Name: Tamim
+University: Oxford
+Id: 01123301773
+Country: UK
+Gender: Male
+Date of birth: 03/08/2000
+Phone: tamim@gmail.com
+Username:tamim

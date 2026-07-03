@@ -1,0 +1,9 @@
+Password:nafis
+Name: Nafis
+University: UIU
+Id: 0112330399
+Country: UK
+Gender: Male
+Date of birth: 05/04/1972
+Phone: 018383844
+Username:nafis

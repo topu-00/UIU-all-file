@@ -1,0 +1,9 @@
+Password:riyad
+Name: Riyad
+University: UIU
+Id: 0112331011
+Country: BD
+Gender: Male
+Date of birth: 02/05/2003
+Phone: 019347444
+Username:riyad

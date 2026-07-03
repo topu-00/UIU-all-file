@@ -1,0 +1,28 @@
+#practiceDiv {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+#nevBar {
+    height: 60px;
+    background-color: #0f1111;
+    align-content: center;
+}
+
+a {
+    margin-right: 210px;
+    color: white;
+    text-decoration: none;
+}
+
+#logo {
+    margin-left: 20px;
+    font-size: 25px;
+    color: #f08804;
+}
+
+button {
+    background-color: #f08804;
+}

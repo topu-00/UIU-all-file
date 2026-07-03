@@ -1,0 +1,618 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: #e3e6e6;
+}
+
+
+@media(min-width : 1500px) {
+    main {
+        margin-left: 13.3%;
+        margin-right: 13.3%;
+    }
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-logo {
+    height: 45px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("Document/amazon_logo.png");
+    background-size: cover;
+    height: 45px;
+    width: 100%;
+
+}
+
+.border {
+    border: 1.5px solid transparent;
+    padding: 5px;
+}
+
+.border:hover {
+    border: 1.0px solid white;
+    cursor: pointer;
+}
+
+/* Box 2 */
+.add-1st {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 23px;
+}
+
+i {
+    color: white;
+}
+
+.add-2nd {
+    font-size: 1rem;
+    margin-left: 3px;
+    color: white;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* Box3 */
+.nav-src {
+    display: flex;
+    justify-content: space-evenly;
+    width: 55%;
+    height: 41px;
+    border-radius: 4px;
+}
+
+.nav-src:hover {
+    border: 2px solid orange;
+    cursor: pointer;
+}
+
+.src-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.src-in {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+.src-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+/* Box4 */
+span {
+    font-size: 0.7rem;
+}
+
+.nav-2nd {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Box6 */
+.nav-card i {
+    font-size: 30px;
+}
+
+.nav-card {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Panel */
+.panel {
+    height: 40px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.all i {
+    font-size: 21px;
+}
+
+.all {
+    font-size: 16px;
+    font-weight: 580;
+}
+
+.option p {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.option {
+    width: 75%;
+    font-size: 0.85rem;
+}
+
+.deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/** Hero Section **/
+.hero-section {
+    background-image: url("Document/bg_image.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    background-color: white;
+    height: 35px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+
+.hero-msg a {
+    color: #007185;
+    text-decoration: none;
+}
+
+/** Content Section **/
+.main-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: white;
+    height: 420px;
+    width: 320px;
+    margin-top: 1.5%;
+}
+
+/** box1 **/
+.h2 {
+    margin-top: 7%;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.div-item {
+    margin-top: 7%;
+}
+
+.e {
+    font-size: 12px;
+}
+
+.div-item1 {
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-size {
+    height: 105px;
+    width: 130px;
+    background-size: cover;
+    background-position: center;
+}
+
+.div-item2 {
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.margin {
+    margin-bottom: 45px;
+}
+
+span a {
+    font-size: 12px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.a {
+    margin-left: 20px;
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(44, 128, 174);
+}
+
+.e1 {
+    background-image: url("Document/Home_Flip_Summer_2024_315_HP_NewArrivals_QuadCard_D_01_1x._SY116_CB555960040_.jpg");
+}
+
+.e2 {
+    background-image: url("Document/Home_Flip_Summer_2024_316_HP_NewArrivals_QuadCard_D_02_1x._SY116_CB555960040_.jpg");
+}
+
+
+.e3 {
+    background-image: url("Document/Home_Flip_Summer_2024_317_HP_NewArrivals_QuadCard_D_03_1x._SY116_CB555960040_.jpg");
+}
+
+.e4 {
+    background-image: url("Document/Home_Flip_Summer_2024_318_HP_NewArrivals_QuadCard_D_04_1x._SY116_CB555960040_.jpg");
+
+}
+
+/** box2 **/
+.e5 {
+    background-image: url("Document/Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg");
+    height: 70%;
+    width: 280px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    align-items: center;
+}
+
+/** box3 **/
+.e9 {
+    background-image: url("Document/CleaningTool_1x._SY116_CB563137408_.jpg");
+}
+
+.e10 {
+    background-image: url("Document/HomeStorage_1x._SY116_CB563137408_.jpg");
+}
+
+
+.e11 {
+    background-image: url("Document/HomeDecor_1x._SY116_CB563137408_.jpg");
+}
+
+.e12 {
+    background-image: url("Document/Bedding_1x._SY116_CB563137408_.jpg");
+
+}
+
+/** box4 **/
+
+.e13 {
+    background-image: url("Document/DQC_APR_TBYB_W_BOTTOMS_2x._SY232_CB624172947_.jpg");
+}
+
+.e14 {
+    background-image: url("Document/DQC_APR_TBYB_W_TOPS_2x._SY232_CB623353881_.jpg");
+}
+
+
+.e15 {
+    background-image: url("Document/DQC_APR_TBYB_W_DRESSES_2x._SY232_CB623353881_.jpg");
+}
+
+.e16 {
+    background-image: url("Document/DQC_APR_TBYB_W_SHOES_2x._SY232_CB624172947_.jpg");
+
+}
+
+/** box5 **/
+
+.e-line {
+    background-color: white;
+    height: 300px;
+    width: 100%;
+    margin-top: 1.5%;
+    margin-left: 29px;
+    margin-right: 29px;
+}
+
+@media(min-width : 1500px) {
+    .e-line1 {
+        margin-left: 23px;
+        margin-right: 23px;
+    }
+}
+
+.div5 a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.e-l1 {
+    background-image: url("Document/71srUHIHcRL._AC_SY400_.jpg");
+    height: 275px;
+    width: 280px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+}
+
+.e-l2 {
+    background-image: url("Document/31hrFPtXRaL._AC_SY400_.jpg");
+    height: 270px;
+    width: 105px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 70px;
+}
+
+.e-l3 {
+    background-image: url("Document/61sS-XIvEXL._AC_SY400_.jpg");
+    height: 280px;
+    width: 80px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 80px;
+}
+
+.e-l4 {
+    background-image: url("Document/81Dp7f+gWBL._AC_SY400_.jpg");
+    height: 250px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 90px;
+}
+
+.e-l5 {
+    background-image: url("Document/71TXvBmTA+L._AC_SY400_.jpg");
+    height: 215px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 60px;
+}
+
+/** box5 **/
+
+.e17 {
+    background-image: url("Document/LSS23_SPRING_DT_CAT_CARD_2_x2._SY232_CB595261253_.jpg");
+}
+
+.e18 {
+    background-image: url("Document/LSS23_SPRING_DT_CAT_CARD_3_x2._SY232_CB595261253_.jpg");
+}
+
+
+.e19 {
+    background-image: url("Document/LSS23_SPRING_DT_CAT_CARD_1_x2._SY232_CB595261253_.jpg");
+}
+
+.e20 {
+    background-image: url("Document/LSS23_SPRING_DT_CAT_CARD_4_x2._SY232_CB595261253_.jpg");
+
+}
+
+/** box6 **/
+
+.e21 {
+    background-image: url("Document/Fuji_Defect_Reduction_1x_Laptop._SY116_CB549022351_.jpg");
+}
+
+.e22 {
+    background-image: url("Document/Fuji_Defect_Reduction_1x_PC._SY116_CB549022351_.jpg");
+}
+
+
+.e23 {
+    background-image: url("Document/Fuji_Defect_Reduction_2x_Hard_Drives._SY232_CB549022351_.jpg");
+}
+
+.e24 {
+    background-image: url("Document/Fuji_Defect_Reduction_2x_Monitors._SY232_CB549022351_.jpg");
+
+}
+
+/** box7 **/
+
+.e25 {
+    background-image: url("Document/WomenWatches_1x._SY116_CB564394432_.jpg");
+}
+
+.e26 {
+    background-image: url("Document/MenWatches_2x._SY232_CB564394432_.jpg");
+}
+
+
+.e27 {
+    background-image: url("Document/GirlWatches_2x._SY232_CB564394432_.jpg");
+}
+
+.e28 {
+    background-image: url("Document/BoyWatches_2x._SY232_CB564394432_.jpg");
+
+}
+
+/** box8 **/
+
+.e29 {
+    background-image: url("Document/Backpack_1x._SY116_CB566100767_.jpg");
+}
+
+.e30 {
+    background-image: url("Document/TravelBag_2x._SY232_CB566100767_.jpg");
+}
+
+
+.e31 {
+    background-image: url("Document/Accessories_2x._SY232_CB566100767_.jpg");
+}
+
+.e32 {
+    background-image: url("Document/Handbags_2x._SY232_CB566100767_.jpg");
+
+}
+
+/** Footer **/
+footer {
+    margin-top: 20px;
+    background-color: white;
+}
+
+#hr1 {
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 0px;
+    color: rgba(70, 69, 68, 0.748);
+}
+
+#hr2 {
+    margin-left: 0.1%;
+    margin-right: 0.1%;
+    height: 0px;
+    color: rgba(70, 68, 68, 0.748);
+}
+
+.signin {
+    height: 107px;
+    text-align: center;
+}
+
+#s-in-h2 {
+    margin-top: 40px;
+    margin-bottom: 18px;
+}
+
+#s-in-a1 {
+    border: 1px solid #ffd814;
+    background-color: #ffd814;
+    color: black;
+    font-size: 13px;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 15px;
+}
+
+.s-in-p1 {
+    margin-top: 14px;
+    font-size: 11px;
+}
+
+.s-in-p1 a {
+    color: rgb(44, 128, 174);
+    text-decoration: underline;
+}
+
+.back-top a {
+    color: white;
+    font-size: 13px;
+    padding-left: 678px;
+    padding-right: 678px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.back-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #37475a;
+    height: 50px;
+    margin-top: 20px;
+}
+
+@media(min-width : 1500px) {
+    .back-top a {
+        padding-left: 918px;
+        padding-right: 918px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+
+}
+
+.link-hous {
+    background-color: #232f3e;
+    width: 100%;
+    height: 370px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.l-box p {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.l-box a {
+    display: block;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.l-box a:hover {
+    text-decoration: underline;
+}
+
+.link-box4 {
+    width: 140px;
+}
+
+.last-link-box {
+    background-color: #232f3e;
+    height: 100px;
+    border-top: 0.5px solid rgba(70, 69, 68, 0.748);
+    font-size: 12px;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.l-l-b1 a {
+    margin: 10px;
+}
+
+.l-l-b1 a:hover {
+    text-decoration: underline;
+}

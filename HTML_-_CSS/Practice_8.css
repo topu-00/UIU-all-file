@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+
+#div1 {
+    height: 200px;
+    width: 200px;
+    border: 16px solid grey;
+    border-top: 16px solid wheat;
+    border-radius: 100%;
+    display: inline-block;
+    animation: spin 2s linear 0s infinite normal;
+}
+
+@keyframes spin {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}

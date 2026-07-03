@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1400.0" style="-fx-background-color: #d8cfff;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.connected.SearchControll">
+   <children>
+      <HBox layoutX="297.0" layoutY="104.0" prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox prefWidth="366.0">
+               <children>
+                  <Button fx:id="Back" mnemonicParsing="false" onAction="#BacK_F" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: Transparent;" text="←">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Button>
+               </children>
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+            </VBox>
+            <ScrollPane fx:id="SearchPen" prefWidth="666.0">
+               <content>
+                  <VBox fx:id="SearchBox" prefHeight="100000.0" prefWidth="649.0" style="-fx-background-color: #d8cfff;" />
+               </content>
+            </ScrollPane>
+            <VBox prefWidth="366.0" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
